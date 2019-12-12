@@ -1,0 +1,37 @@
+body {
+    width: 70%;             /* Контент занимает 70% ширины страницы. */
+    margin-left: auto;      /* Контент выровнен по середине. */
+    margin-right: auto;
+}
+
+h1, h2, h3 {
+    padding-top: 0;
+    padding-bottom: 0;
+    /* Верхний отступ заголовков установлен больше нижнего (например, 1.5em), 
+    чтобы соблюсти правило внутреннего и внешнего. */
+    margin-top: 1.5em;          
+    margin-bottom: 0.9em;
+    font-family: sans-serif;    /* Заголовки всех уровней выполнены шрифтом без засечек */
+}
+
+h1 {
+    font-size: 32px;    /* Заголовки первого уровня имеют размер 32px. */
+}
+
+table, td, th {
+    /* Таблицы имеют непрерывные границы чёрного цвета толщиной 1p */
+    border: solid black 1px;    
+}
+
+table caption {
+    caption-side: bottom;
+    font-style: italic;
+}
+
+figure {
+    float: right;
+}
+
+figcaption {    
+    font-style: italic;     /* Подписи под картинками выполены курсивом. */
+}
