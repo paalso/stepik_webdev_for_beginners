@@ -153,6 +153,36 @@ p {
   width: 168px;
 }
 
+.person .image {
+  margin: 0 auto;
+  height: 168px;
+  width: 168px;
+}
+
+.person .img-1 {
+  background: url("../img/team/team_gallery.png") 0;
+}
+
+.person .img-2 {
+  background: url("../img/team/team_gallery.png") -168px;
+}
+
+.person .img-3 {
+  background: url("../img/team/team_gallery.png") -336px;
+}
+
+.person .img-4 {
+  background: url("../img/team/team_gallery.png") -504px;
+}
+
+.person .img-5 {
+  background: url("../img/team/team_gallery.png") -672px;
+}
+
+.person .img-6 {
+  background: url("../img/team/team_gallery.png") -840px;
+}
+
 .person .name {
   font-weight: bold;
   font-size: 24px;
